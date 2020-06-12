@@ -121,13 +121,7 @@ Configure magento to use redis, elasticsearch and varnish if you choose to run t
 
 - [Docker Hub](https://hub.docker.com/r/domw/magento2-cloud-nginx)
 
-    cd images/nginx/1.9
-
-    docker login
-
-    docker build -t domw/magento2-cloud-nginx:1.9 ./
-
-    docker push domw/magento2-cloud-nginx:1.9
+- [Git](https://github.com/DominicWatts/Magento2CloudNginx)
 
 nginx versions: 1.9, 1.10
 
@@ -151,25 +145,13 @@ php versions: 7.1, 7.2, 7.3, 7.4
 
 - [Docker Hub](https://hub.docker.com/r/domw/magento2-cloud-tls)
 
-    cd images/tls
-
-    docker login
-
-    docker build -t domw/magento2-cloud-tls:latest ./
-
-    docker push domw/magento2-cloud-tls:latest
+- [Git](https://github.com/DominicWatts/Magento2CloudTLS)
 
 ### varnish
 
 - [Docker Hub](https://hub.docker.com/r/domw/magento2-cloud-varnish)
 
-    cd images/varnish/6.2
-
-    docker login
-
-    docker build -t domw/magento2-cloud-varnish:6.2 ./
-
-    docker push domw/magento2-cloud-varnish:6.2
+- [Git](https://github.com/DominicWatts/Magento2CloudVarnish)
 
 varnish versions: 4.0, 6.2
 
@@ -177,16 +159,9 @@ varnish versions: 4.0, 6.2
 
 - [Docker Hub](https://hub.docker.com/r/domw/magento2-cloud-elasticsearch)
 
-    cd images/elasticsearch/7.6
-
-    docker login
-
-    docker build -t domw/magento2-cloud-elasticsearch:7.6 ./
-
-    docker push domw/magento2-cloud-elasticsearch:7.6
+- [Git](https://github.com/DominicWatts/Magento2CloudElasticsearch)
 
 elasticsearch versions: 1.7, 2.4, 5.2, 6.5, 6.8, 7.5, 7.6
-
 
 ## Useful Resources
 - [Docker Hub](https://hub.docker.com/r/domw/)
